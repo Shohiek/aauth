@@ -1,0 +1,18 @@
+SETUP
+
+1) COPY aauth.php to application/config
+2) COPY aauth.php to application/libraries
+3) COPY aauth_lang.php to application/language/english/aauth_lang.php
+4) COPY recaptchalib_helper.php to application/helpers/recaptchalib_helper.php
+
+AUTOLOAD
+1) helpers - recaptchalib_helper
+2) libraries - Aauth
+
+IMPORT
+1) sql table to db
+
+CONFIG
+1) declare an encryption key
+
+
